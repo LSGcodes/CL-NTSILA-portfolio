@@ -1,3 +1,11 @@
+/*
+Deployment Instructions: copy and paste the following commands in your terminal to deploy the portfolio to GitHub Pages. Make sure you have committed all your changes before running these commands.
+git checkout master
+git add .
+git commit -m "Update portfolio"
+git push origin master:gh-pages --force
+*/
+
 document.addEventListener("DOMContentLoaded", function() {
     const nameEl = document.querySelector("h1");
     const subtitleEl = document.getElementById("subtitle");
