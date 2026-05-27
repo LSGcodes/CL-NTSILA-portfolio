@@ -4,6 +4,14 @@ git checkout master
 git add .
 git commit -m "Update portfolio"
 git push origin master:gh-pages --force
+
+and 
+
+git checkout master
+git add .
+git commit -m "Add WIL to experience timeline"
+git push origin master
+git push origin master:gh-pages --force
 */
 
 document.addEventListener("DOMContentLoaded", function() {
