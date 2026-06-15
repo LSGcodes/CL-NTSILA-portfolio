@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #0d1b2a;
+    background-color: #0f2035;
 }
 .falling-text {
             display: inline-block;
@@ -20,8 +20,8 @@ body{
             to {
                 opacity: 1;
                 transform: translateY(0);
+              }
             }
-            }   
 
 .first-header {
     top: 0;
@@ -67,7 +67,7 @@ body{
 
 .Name_sur{
     margin-top: 7%;
-    text-shadow: 0 0 40px rgba(100,255,218,0.3), 2px 2px 8px rgba(0,0,0,0.8);
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.999), 2px 2px 8px rgba(0,0,0,0.8);
     font-weight: bold;
     font-size: 60px;
 }
@@ -665,8 +665,8 @@ html {
   justify-content: center;
 }
 .contact-btn.send {
-  background: #64ffda;
-  color: #fff;
+  background: #1f74be;
+  color: #000000;
   border: none;
   cursor: pointer;
 }
